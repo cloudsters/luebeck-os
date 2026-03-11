@@ -2,6 +2,10 @@
 
 <!--
   SETUP INSTRUCTIONS:
+  Option A (guided): Say "Boot this instance" — the Purpose Agent will
+  walk you through setup using BOOT.md and generate this file for you.
+
+  Option B (manual):
   1. Copy this file to CLAUDE.md (remove the .template extension)
   2. Replace all [PLACEHOLDERS] with your instance's details
   3. Delete this comment block
