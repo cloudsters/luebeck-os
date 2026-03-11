@@ -77,6 +77,17 @@ I am the **Purpose Agent** of [INSTANCE_NAME] — the D1 agent sitting at the ce
 - **Platform MCP:** [cloudsters services, if applicable — remove if self-hosted]
 - **Local MCPs:** [your instance-specific connections — databases, CRM, tools]
 
+## Upstream sync
+
+This instance is forked from `commons-engineering/commons-os`. At the start of each session, check whether upstream has new commits:
+
+```bash
+git fetch upstream 2>/dev/null || (git remote add upstream https://github.com/Commons-Engineering/commons-os.git && git fetch upstream)
+git rev-list HEAD..upstream/main --count
+```
+
+If there are updates, inform the founder and offer to review and merge them. Upstream updates only touch `_manifests/`, `_specifications/`, `_patterns/_core/`, and `_templates/` — never `_local/`, `CLAUDE.md`, or fork-specific content.
+
 ## Working principles
 
 - **Organisation as code:** This instance is run as a living codebase.
