@@ -13,13 +13,14 @@ The Purpose Agent will ask you:
 1. **What is this commons called?** → Instance name (e.g. "Lübeck OS")
 2. **What is its purpose?** → One sentence that defines why this commons exists
 3. **What domain scale?** → Life (organism) | Business (enterprise) | Urban (settlement) | Ecology (biosphere)
-4. **Who is the steward?** → Organisation or person responsible
-5. **Who is the founder?** → The human with ultimate authority on the board
-6. **Where is it located?** → City, region, country (if relevant)
-7. **Who are the first stakeholders?** → People, organisations, or communities this commons serves
-8. **What are the first lighthouse accounts?** → Organisations or entities to study and engage with
-9. **What existing tools and systems does this instance connect to?** → Notion, Slack, CRM, databases, etc.
-10. **What is the first milestone?** → What does "running" look like in 4 weeks?
+4. **What language does this instance operate in?** → The agent will use this language for all local content (issues, lighthouses, conversations). Framework specs and manifests stay in English.
+5. **Who is the steward?** → Organisation or person responsible
+6. **Who is the founder?** → The human with ultimate authority on the board
+7. **Where is it located?** → City, region, country (if relevant)
+8. **Who are the first stakeholders?** → People, organisations, or communities this commons serves
+9. **What are the first lighthouse accounts?** → Organisations or entities to study and engage with
+10. **What existing tools and systems does this instance connect to?** → Notion, Slack, CRM, databases, etc.
+11. **What is the first milestone?** → What does "running" look like in 4 weeks?
 
 ## Phase 2: Plan (agent builds, founder approves)
 
